@@ -10,5 +10,5 @@ fun View.setThrottledClickListener(throttle: Long, listener: () -> Unit) {
             listener.invoke()
         }
     }
-
 }
+
